@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+
+.container{
+  padding: 2rem;
+}
+
+h1, h2, p{
+  color: #000;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+.label, .input{
+  color : #000;
+  background-color: transparent;
+  
+}
+
+.input{
+
+  &::placeholder{
+   color: #000; 
+  }
+
+}
+
+button{
+  width: 10rem;
+}
+
+#signup{
+  padding: 2rem;
+  background-color: darksalmon;
+}
+
+#login{
+  padding: 2rem;
+  background-color: darkgray;
+}
